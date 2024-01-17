@@ -15,9 +15,9 @@
 function filterArray(numbers, value)
 {
     let useful = [];
-    for (let i = 0; i < numbers.length; i++) {
-       
-        if(numbers[i]>value)useful.push(numbers[i]);    
+    for (let i = 0; i < numbers.length; i++)
+    {       
+        if (numbers[i] > value) { useful.push(numbers[i]); } 
     }
     return useful;
 }

@@ -18,7 +18,7 @@ function makeArray(arr1, arr2, maxLength) {
         arrTotal.push(a);
 
     }
-    if (arrTotal.length > maxLength) return arrTotal.slice(0, maxLength);
+    if (arrTotal.length > maxLength) { return arrTotal.slice(0, maxLength); }
     else return arrTotal;
 }
 

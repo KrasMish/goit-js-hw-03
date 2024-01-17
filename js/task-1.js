@@ -20,7 +20,8 @@
 // Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи.У консоль 
 // будуть виведені результати її роботи.
 
-function slugify(title) {
+function slugify(title)
+    {
     const titleLowerCase = title.toLowerCase();
     const rez = titleLowerCase.split(" ");
     return rez.join("-");
